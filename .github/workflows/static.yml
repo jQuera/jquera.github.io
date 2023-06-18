@@ -29,3 +29,9 @@ jobs:
           git add .
           git commit -m "Move files from 'root/web' to root"
           git push
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
+        with:
+          branch: master
+          folder: .
