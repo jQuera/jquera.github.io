@@ -19,9 +19,9 @@ jobs:
           shopt -s extglob
           mv web/* ./
 
-      - name: Remove 'root/web' folder
+      - name: Remove 'web' folder
         run: |
-          rm -rf root/web
+          rm -rf web
       - name: Commit and push changes
         run: |
           git config --local user.email "rafael2425@gmail.com"
