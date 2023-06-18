@@ -15,8 +15,8 @@ jobs:
 
       - name: Move files to root
         run: |
-          mv root/web/* .
-          mv root/web/.* .
+          mv web/* .
+          mv web/.* .
 
       - name: Remove 'root/web' folder
         run: |
