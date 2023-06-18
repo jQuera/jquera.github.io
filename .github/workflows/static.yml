@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - master
-
+permissions:
+  contents: write
 jobs:
   move-files:
     runs-on: ubuntu-latest
