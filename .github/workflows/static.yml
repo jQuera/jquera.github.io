@@ -48,7 +48,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: jquera.github.io
+      url: www.jquera.dev
     runs-on: ubuntu-latest
     needs: move-files
     permissions:
