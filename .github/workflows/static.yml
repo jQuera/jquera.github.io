@@ -35,7 +35,7 @@ jobs:
           git config --local user.email "rafael2425@gmail.com"
           git config --local user.name "jquera"
           git add .
-          git commit -m "Move files from 'root/web' to root"
+          git commit --allow-empty -m "Move files from 'root/web' to root"
           git push
 
     #  - name: Deploy to GitHub Pages
