@@ -52608,7 +52608,7 @@ return new A.HW(s,new A.tG(s,this.d,null),null)}}
 A.HW.prototype={
 by(a){return this.f!==a.f}}
 A.z1.prototype={
-N(a){return new A.pK(B.Bq,"Flutter Demo",A.a5J(null,A.ab7(B.N,B.BY),!0),null)}}
+N(a){return new A.pK(B.Bq,"jQuera Super Web",A.a5J(null,A.ab7(B.N,B.BY),!0),null)}}
 A.yI.prototype={
 N(a){var s=null
 return new A.qV(new A.nU(B.xI,!0,new A.FZ(s,s,1/0,56),s),A.Kd(A.abd(A.a([B.J8,A.KK(s,s,B.BX,s,20,s,s,20),B.J9,A.KK(B.Q,B.J7,B.BW,s,100,s,s,1/0)],t.nA),B.Bo),s,s),B.BZ,s)}}
